@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledAbout = styled.div`
-  max-width: 100%;
+  margin: auto;
   width: 100%;
   background: white;
 `
@@ -9,9 +9,28 @@ const StyledAbout = styled.div`
 export const About = () => {
   return (
     <section id="about"> 
-      {/* <StyledAbout>
+      <StyledAbout>
         <p>Some text.</p>
-      </StyledAbout> */}
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+        <p>Some text.</p>
+      </StyledAbout>
     </section>
   );
 };

@@ -68,9 +68,9 @@ export const Hero = () => {
         Penultimate year undergraduate student at the University of St
         Andrews, pursuing an Integrated Masters degree in Computer Science.
       </p>
-      <a href="https://www.linkedin.com/in/gregorsoutar/" class="fa fa-linkedin" target="_blank" rel="noreferrer"> </a>
-      <a href="mailto:gregor@gscs.uk" class="fa fa-envelope"> </a>
-      <a href="https://github.com/gs221" class="fa fa-github" target="_blank" rel="noreferrer"> </a>
+      <a href="https://www.linkedin.com/in/gregorsoutar/" className="fa fa-linkedin" target="_blank" rel="noreferrer"> </a>
+      <a href="mailto:gregor@gscs.uk" className="fa fa-envelope"> </a>
+      <a href="https://github.com/gs221" className="fa fa-github" target="_blank" rel="noreferrer"> </a>
     </StyledHero>
   );
 };
