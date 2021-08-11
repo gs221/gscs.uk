@@ -30,6 +30,12 @@ const StyledEducation = styled.section`
     p {
       color: ${colors.softWhite};
     }
+
+    @media all and (max-width:600px) {
+      div.education-container {
+        max-width: 90%;
+      }
+    }
 `;
 
 export const Education = () => {

@@ -71,15 +71,19 @@ export const Navbar = () => {
     }
   }, []);
 
+  const fix = () => {
+    alert('This will work soon :)');
+  };
+
   return (
     <StyledNavbar>
       <ul className={scrolled ? 'opaque' : ''}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/education">Education</a></li>
-        <li><a href="/experience">Experience</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/" onClick={fix}>Home</a></li>
+        <li><a href="/about" onClick={fix}>About</a></li>
+        <li><a href="/education" onClick={fix}>Education</a></li>
+        <li><a href="/experience" onClick={fix}>Experience</a></li>
+        <li><a href="/projects" onClick={fix}>Projects</a></li>
+        <li><a href="/contact" onClick={fix}>Contact</a></li>
       </ul>
     </StyledNavbar>
   );
