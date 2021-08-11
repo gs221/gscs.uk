@@ -13,7 +13,7 @@ const StyledHero = styled.section`
   margin: auto;
   
   img {
-    margin-top: 19vh;
+    margin-top: 18vh;
     border-radius: 50%;
     width: 12rem;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
@@ -60,6 +60,11 @@ const StyledHero = styled.section`
     transition: 0.3s;
   }
 
+  .fa-angle-down {
+    color: ${colors.verySoftWhite};
+    margin-top: 7vh;
+  }
+
   @media all and (max-width:1400px) {
     max-width: 70%;
   };
@@ -73,16 +78,18 @@ const StyledHero = styled.section`
 export const Hero = () => {
   return (
     <StyledHero>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       <img src="avatar.jpg" alt="Avatar" />
       <h1>Gregor Soutar</h1>
       <p>
         Penultimate year undergraduate student at the University of St
         Andrews, pursuing an Integrated Masters degree in Computer Science.
       </p>
-      <a href="https://www.linkedin.com/in/gregorsoutar/" className="fa fa-linkedin" target="_blank" rel="noreferrer"> </a>
-      <a href="mailto:gregor@gscs.uk" className="fa fa-envelope"> </a>
-      <a href="https://github.com/gs221" className="fa fa-github" target="_blank" rel="noreferrer"> </a>
+      <div className="social-buttons">
+        <a href="https://www.linkedin.com/in/gregorsoutar/" className="fa fa-linkedin" target="_blank" rel="noreferrer"> </a>
+        <a href="mailto:gregor@gscs.uk" className="fa fa-envelope"> </a>
+        <a href="https://github.com/gs221" className="fa fa-github" target="_blank" rel="noreferrer"> </a>
+      </div>
+      <div className="fa fa-angle-down"></div>
     </StyledHero>
   );
 };
