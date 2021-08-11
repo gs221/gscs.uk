@@ -13,9 +13,10 @@ const StyledHero = styled.section`
   margin: auto;
   
   img {
-    margin-top: 20vh;
+    margin-top: 19vh;
     border-radius: 50%;
     width: 12rem;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
   }
 
   .fa {
@@ -29,23 +30,34 @@ const StyledHero = styled.section`
     border-radius: 50%;
   }
 
-  .fa:hover {
-    opacity: 0.7;
-  }
-
   .fa-linkedin {
     background: rgb(255, 255, 255, 0.2);
     color: ${colors.white};
+    &:hover {
+      background: #007bb5;
+      color: ${colors.solidWhite};
+    }
+    transition: 0.3s;
   }
 
   .fa-envelope {
     background: rgb(255, 255, 255, 0.2);
     color: ${colors.white};
+    &:hover {
+      background: ${colors.orange};
+      color: ${colors.solidWhite};
+    }
+    transition: 0.3s;
   }
 
   .fa-github {
     background: rgb(255, 255, 255, 0.2);
     color: ${colors.white};
+    &:hover {
+      background: ${colors.white};
+      color: ${colors.black};
+    }
+    transition: 0.3s;
   }
 
   @media all and (max-width:1400px) {

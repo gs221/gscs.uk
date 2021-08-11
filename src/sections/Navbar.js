@@ -17,32 +17,29 @@ const StyledNavbar = styled.nav`
     display: flex;
     justify-content: center;
     transition: 1s;
+    color: ${colors.verySoftWhite};
   }
 
   ul.opaque {
-    background-color: rgb(255, 123, 0, 0.98);
-  }
-
-  a.opaque {
-    color: black;
+    background-color: ${colors.orange};
+    color: ${colors.black};
   }
 
   li {
     float: left;
-    
+    color: inherit;
   }
 
   li a {
     transition: 0.4s;
     display: block;
-    color: ${colors.verySoftWhite};
+    color: inherit;
     text-align: center;
     padding: 0.6rem 1.5rem;
     text-decoration: none;
   }
 
   li a:hover:not(.active) {
-    
     color: ${colors.white}; 
     background-color: rgb(255, 255, 255, 0.15);
   }
@@ -63,7 +60,6 @@ export const Navbar = () => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
 
-    // cleanup this component
     return () => {
       window.removeEventListener('scroll', handleScroll);
     }
@@ -72,12 +68,12 @@ export const Navbar = () => {
   return (
     <StyledNavbar>
       <ul className={scrolled ? 'opaque' : ''}>
-        <li><a className={scrolled ? 'opaque' : ''} href="">Home</a></li>
-        <li><a className={scrolled ? 'opaque' : ''} href="">About</a></li>
-        <li><a className={scrolled ? 'opaque' : ''} href="">Experience</a></li>
-        <li><a className={scrolled ? 'opaque' : ''} href="">Education</a></li>
-        <li><a className={scrolled ? 'opaque' : ''} href="">Projects</a></li>
-        <li><a className={scrolled ? 'opaque' : ''} href="">Contact</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/experience">Experience</a></li>
+        <li><a href="/education">Education</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </StyledNavbar>
   );

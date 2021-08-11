@@ -11,21 +11,8 @@ export const GlobalStyle = createGlobalStyle`
     color: ${colors.darkText};
 
     &::-webkit-scrollbar {
-      width: 5px;
-      height: 6px;
-    }
-
-    &::-webkit-scrollbar-corner {
-      background: #f8f9f9;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      border-radius: 3px;
-      background: rgb(255, 255, 255, 0.2);
-      transition: background 0.3s;
-      &:hover {
-        background: rgb(255, 255, 255, 0.2);
-      }
+      width: 0px;
+      height: 0px;
     }
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("hero.png");
