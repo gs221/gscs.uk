@@ -1,17 +1,56 @@
 import styled from "styled-components";
+import { colors } from "../helpers/colors";
 
-const StyledAbout = styled.div`
-  max-width: 100%;
+const StyledAbout = styled.section`
+  margin: auto;
   width: 100%;
   background: white;
+
+  div.about-container {
+    margin: auto;
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    color: ${colors.darkText};
+    padding-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  p {
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  @media all and (max-width:600px) {
+    img {
+      display: none;
+    }
+
+    div.about-container {
+      max-width: 90%;
+    }
+  };
 `
 
 export const About = () => {
   return (
-    <section id="about"> 
-      {/* <StyledAbout>
-        <p>Some text.</p>
-      </StyledAbout> */}
-    </section>
+    <StyledAbout>
+      <div className="about-container">
+        <div>
+          <h1>About</h1>
+          <p>Future innovator with ambition to make the world a better place.
+            I am an undergraduate student at the University of St Andrews, pursuing 
+            an Integrated Masters degree in Computer Science. I'm seeking a summer 
+            internship to cross that line into the world of work and kickstart my career.
+          </p> 
+        </div>
+        <img src="hello.svg" alt="Hello" />
+      </div>
+    </StyledAbout>
   );
 };
