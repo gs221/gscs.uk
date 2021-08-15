@@ -53,7 +53,7 @@ const StyledContact = styled.section`
     border: none;
     width: 20%;
     font: inherit;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     letter-spacing: 1.5px;
     height: 30px;
     border-radius: 0.3rem;
