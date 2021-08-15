@@ -87,10 +87,6 @@ const StyledContact = styled.section`
       max-width: 20rem;
     }
 
-    img {
-      display: none;
-    }
-
     textarea {
       height: 40vh;
     }
