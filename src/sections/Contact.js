@@ -15,13 +15,15 @@ const StyledContact = styled.section`
     padding-top: 10vh;
   }
 
-  div.contact-container {
-  }
-
   form {
     display: grid;
     grid-template-columns: auto;
     padding-bottom: 20px;
+  }
+
+  h2 {
+    font-family: "Roboto Slab", serif;
+    margin: 20px 0px;
   }
 
   label {
@@ -67,6 +69,17 @@ const StyledContact = styled.section`
     }
   }
 
+  img.tick {
+    width: 50%;
+    padding: 50px 0px;
+  }
+
+  div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
   @media all and (max-width: 600px) {
     height: 100vh;
 
@@ -89,7 +102,13 @@ const ContactForm = () => {
   const [state, handleSubmit] = useForm("mgerpodp");
   
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return (
+        <div>
+          <img className="tick" src="tick.svg" alt="tick" />
+          <h2>Thank you!</h2>
+          <h2>Message Sent</h2>
+        </div>
+      );
   }
 
   return (
