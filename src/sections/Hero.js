@@ -13,7 +13,7 @@ const StyledHero = styled.section`
   margin: auto;
   
   img {
-    margin-top: 18vh;
+    margin-top: 17vh;
     border-radius: 50%;
     width: 12rem;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
@@ -63,6 +63,12 @@ const StyledHero = styled.section`
   .fa-angle-down {
     color: ${colors.verySoftWhite};
     margin-top: 7vh;
+    &:hover {
+       color: ${colors.white};
+       cursor: pointer;
+       font-size: 1.75rem;
+    }
+    transition: 0.3s;
   }
 
   @media all and (max-width:1400px) {
@@ -71,13 +77,17 @@ const StyledHero = styled.section`
 
   @media all and (max-width:500px) {
     max-width: 95%;
+
+    img {
+      margin-top: 12vh;
+    }
   };
 
 `;
 
 export const Hero = () => {
   return (
-    <StyledHero>
+    <StyledHero id="Home">
       <img src="avatar.jpg" alt="Avatar" />
       <h1>Gregor Soutar</h1>
       <p>
@@ -89,7 +99,7 @@ export const Hero = () => {
         <a href="mailto:gregor@gscs.uk" className="fa fa-envelope"> </a>
         <a href="https://github.com/gs221" className="fa fa-github" target="_blank" rel="noreferrer"> </a>
       </div>
-      <div className="fa fa-angle-down"></div>
+      <a className="fa fa-angle-down" href="#About"> </a>
     </StyledHero>
   );
 };

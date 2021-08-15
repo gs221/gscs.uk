@@ -8,7 +8,7 @@ const StyledEducation = styled.section`
     background-repeat: no-repeat;
     background-size: cover;
     color: ${colors.white};
-    padding-bottom: 50px;
+    padding-bottom: 10vh;
 
     div.education-container {
       margin: auto;
@@ -17,8 +17,8 @@ const StyledEducation = styled.section`
 
     h1 {
       margin: 0px;
-      padding-top: 15vh;
-      padding-bottom: 10px;
+      padding-top: 10vh;
+      padding-bottom: 5vh;
       text-align: center;
     }
 
@@ -40,7 +40,7 @@ const StyledEducation = styled.section`
 
 export const Education = () => {
   return (
-    <StyledEducation>
+    <StyledEducation id="Education">
       <div className="education-container">
         <h1>Education</h1>
         <h2>Year 5 - Graduate June 2023</h2>

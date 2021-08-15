@@ -22,10 +22,14 @@ export const GlobalStyle = createGlobalStyle`
     background-size: cover;
 
     overflow: auto;
-  }
+    scroll-behavior: smooth;
 
+    scroll-padding-top: calc(2rem - 1px);
+  }
+  
   main, div {
     height: 100%;
+    
   }
 
   h1 {
@@ -56,6 +60,7 @@ export const GlobalStyle = createGlobalStyle`
   @media all and (max-width:600px) {
     body, html {
       font-size: 17px;
+      scroll-padding-top: 0px;
     }
   };
 

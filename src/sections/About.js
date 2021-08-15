@@ -4,7 +4,7 @@ import { colors } from "../helpers/colors";
 const StyledAbout = styled.section`
   margin: auto;
   width: 100%;
-  background: white;
+  background: ${colors.white};
 
   div.about-container {
     margin: auto;
@@ -15,7 +15,7 @@ const StyledAbout = styled.section`
 
   h1 {
     color: ${colors.darkText};
-    padding-top: 20px;
+    padding-top: 10vh;
     margin-bottom: 0px;
     text-align: center;
     padding-bottom: 10px;
@@ -23,7 +23,7 @@ const StyledAbout = styled.section`
 
   p {
     margin-top: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 10vh;
   }
 
   @media all and (max-width:600px) {
@@ -39,7 +39,7 @@ const StyledAbout = styled.section`
 
 export const About = () => {
   return (
-    <StyledAbout>
+    <StyledAbout id="About">
       <div className="about-container">
         <div>
           <h1>About</h1>

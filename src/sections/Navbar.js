@@ -16,8 +16,10 @@ const StyledNavbar = styled.nav`
     width: 100%;
     display: flex;
     justify-content: center;
-    transition: 1s;
+    transition: 0.5s;
     color: ${colors.verySoftWhite};
+    height: 2rem;
+    align-items: center;
   }
 
   ul.opaque {
@@ -71,19 +73,15 @@ export const Navbar = () => {
     }
   }, []);
 
-  const fix = () => {
-    alert('This will work soon :)');
-  };
-
   return (
     <StyledNavbar>
       <ul className={scrolled ? 'opaque' : ''}>
-        <li><a href="/" onClick={fix}>Home</a></li>
-        <li><a href="/about" onClick={fix}>About</a></li>
-        <li><a href="/education" onClick={fix}>Education</a></li>
-        <li><a href="/experience" onClick={fix}>Experience</a></li>
-        <li><a href="/projects" onClick={fix}>Projects</a></li>
-        <li><a href="/contact" onClick={fix}>Contact</a></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        {/* <li><a href="#Projects">Projects</a></li> */}
+        <li><a href="#Contact">Contact</a></li>
       </ul>
     </StyledNavbar>
   );
