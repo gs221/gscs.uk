@@ -116,7 +116,7 @@ const ContactForm = () => {
       <input type="email" name="email" placeholder="john@example.com" required/>
 
       <label htmlFor="message">Message</label>
-      <textarea name="message" placeholder="Your message. (50 Characters Minimum)" required required minLength="50"/>
+      <textarea name="message" placeholder="Your message. (50 Characters Minimum)" required minLength="50"/>
 
       <button type="submit" disabled={state.submitting}>Submit</button>
     </form>

@@ -45,6 +45,19 @@ const StyledExperience = styled.section`
     width: 50%;
   }
 
+  a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: #808080;
+    
+
+    &:hover {
+      color: ${colors.orange};
+      text-decoration: underline;
+    }
+    transition: 0.3s;
+  }
+
   @media all and (max-width:600px) {
     div.experience-container {
       max-width: 90%;
@@ -81,6 +94,8 @@ export const Experience = () => {
           <h2>Internship - University of St Andrews Academic Registry</h2>
           <h3>June 2021 - July 2021 · 6 Weeks</h3>
           <p>I wrote a flexible terminal-based Python program to aid in the management of their data.</p>
+          <a href="https://github.com/gs221/RegistryDataTool" target="_blank" rel="noreferrer">Repository</a>
+          <a href="https://universityofstandrews907-my.sharepoint.com/:b:/g/personal/gs221_st-andrews_ac_uk/ESieROdIsS1Agpn9901eojABfdXNA3WMsH2X8QS1WMHMkg?e=007ENG" target="_blank" rel="noreferrer">Final Presentation</a>
         </div>
       
         <img className="mcdonalds" src="mcdonalds.svg" alt="McDonalds Logo" />
