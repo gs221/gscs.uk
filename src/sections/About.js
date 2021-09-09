@@ -8,9 +8,10 @@ const StyledAbout = styled.section`
 
   div.about-container {
     margin: auto;
-    max-width: 60%;
+    max-width: 70%;
     display: flex;
     align-items: center;
+    padding-bottom: 10vh;
   }
 
   h1 {
@@ -23,7 +24,17 @@ const StyledAbout = styled.section`
 
   p {
     margin-top: 0px;
-    padding-bottom: 10vh;
+  }
+
+  a {
+    font-family: 'Tillana', cursive;
+
+  }
+
+  img {
+    width: 30%;
+    padding-left: 100px;
+    padding-top: 75px;
   }
 
   @media all and (max-width:600px) {
@@ -48,6 +59,7 @@ export const About = () => {
             an Integrated Masters degree in Computer Science. I'm seeking a summer 
             internship to cross that line into the world of work and kickstart my career.
           </p> 
+          <a href="https://universityofstandrews907-my.sharepoint.com/:b:/g/personal/gs221_st-andrews_ac_uk/EX7uiqnY2oxJvuFAfVQPtkoB1zbfuNYEy6Co6wPP9H3E1g?e=9AP6w3" target="_blank" rel="noreferrer">Curriculum Vitae / Résumé</a>
         </div>
         <img src="hello.svg" alt="Hello" />
       </div>

@@ -46,7 +46,7 @@ export const Education = () => {
         <h2>Year 5 - Graduate June 2023</h2>
         <p>On track to graduate with a first.</p>
         <h2>Year 4 - Current</h2>
-        <p>Provisional: Signal processing (sound, image, video), Component technology, Computer security, Constraint programming, Databases, Computer graphics, Visual analytics, Video games.</p>
+        <p>Provisional: Signal processing (sound, image, video), Critical systems engineering, Computer security, Constraint programming, Databases, Computer graphics, Distributed systems, Video games.</p>
         <h2>Year 3 - Average Grade: 17.0/20</h2>
         <p>Artificial intelligence, Data encoding, Logic and reasoning, Computational complexity, Data communications and networks, Human computer interaction, Software engineering team project.</p>
         <h2>Year 2 - Average Grade: 17.5/20</h2>

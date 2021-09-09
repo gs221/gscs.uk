@@ -11,7 +11,7 @@ const StyledExperience = styled.section`
   h1 {
       margin: 0px;
       padding-top: 10vh;
-      padding-bottom: 5vh;
+      padding-bottom: 1vh;
       text-align: center;
       color: ${colors.darkText};
     }
@@ -19,6 +19,7 @@ const StyledExperience = styled.section`
   h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 1rem;
+    padding-top: 30px;
   }
 
   h3 {
@@ -46,16 +47,8 @@ const StyledExperience = styled.section`
   }
 
   a {
-    text-decoration: none;
     padding-right: 20px;
-    color: #808080;
-    
-
-    &:hover {
-      color: ${colors.orange};
-      text-decoration: underline;
-    }
-    transition: 0.3s;
+    font-family: 'Tillana', cursive;
   }
 
   @media all and (max-width:600px) {

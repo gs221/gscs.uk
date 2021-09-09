@@ -39,6 +39,17 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: normal;
   }
 
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #808080;
+
+    &:hover {
+      color: ${colors.orange};
+    }
+    transition: 0.3s;
+  }
+
   @media all and (max-width:2000px) {
     body, html {
       font-size: 25px;
