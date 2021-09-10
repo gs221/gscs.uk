@@ -59,7 +59,7 @@ export const About = () => {
             an Integrated Masters degree in Computer Science. I'm seeking a summer 
             internship to cross that line into the world of work and kickstart my career.
           </p> 
-          <a href="../Documents/CV.pdf" target="_blank" rel="noreferrer">Curriculum Vitae / Résumé</a>
+          <a href="Documents/CV.pdf" target="_blank" rel="noreferrer">Curriculum Vitae / Résumé</a>
         </div>
         <img src="hello.svg" alt="Hello" />
       </div>
