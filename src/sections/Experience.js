@@ -96,7 +96,7 @@ export const Experience = () => {
           <h2>McDonalds</h2>
           <h3>October 2018 - Present · {yearsEmployed} yrs {monthsEmployed} mos</h3>
           <p>
-          I have worked at McDonalds for almost three years and throughout my time there I have learned 
+          I have worked at McDonalds for almost four years and throughout my time there I have learned 
           and reinforced many transferable skills. I have to work in a team, do multiple jobs simultaneously 
           whilst maintaining composure and precision under constant pressure to deliver high standards. 
           </p>
