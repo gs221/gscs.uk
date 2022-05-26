@@ -45,7 +45,7 @@ export const Education = () => {
         <h1>Education</h1>
         <h2>Year 5 - Graduate June 2023</h2>
         <p>On track to graduate with a first.</p>
-        <h2>Year 4 - Average Grade: 18.3/20 (Semester 1 Only)</h2>
+        <h2>Year 4 - Average Grade: 18.1/20</h2>
         <p>Signal processing (sound, image, video), Software engineering principles, Computer security, Constraint programming, Databases, Information Visualisation, Distributed systems, Video games.</p>
         <h2>Year 3 - Average Grade: 17.0/20</h2>
         <p>Artificial intelligence, Data encoding, Logic and reasoning, Computational complexity, Data communications and networks, Human computer interaction, Software engineering team project.</p>
