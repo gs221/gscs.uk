@@ -91,8 +91,8 @@ export const Hero = () => {
       <img src="avatar.jpg" alt="Avatar" />
       <h1>Gregor Soutar</h1>
       <p>
-        Penultimate year undergraduate student at the University of St
-        Andrews, pursuing an Integrated Masters degree in Computer Science.
+        Soon to graduate student at the University of St Andrews, pursuing 
+        an Integrated Masters degree in Computer Science.
       </p>
       <div className="social-buttons">
         <a href="https://www.linkedin.com/in/gregorsoutar/" className="fa fa-linkedin" target="_blank" rel="noreferrer"> </a>

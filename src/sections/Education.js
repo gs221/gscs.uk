@@ -44,7 +44,7 @@ export const Education = () => {
       <div className="education-container">
         <h1>Education</h1>
         <h2>Year 5 - Graduate June 2023</h2>
-        <p>On track to graduate with a first.</p>
+        <p>Individual Masters Project, Machine Learning, Interactive Software and Hardware, Language and Computation, Artificial Intelligence Practice.</p>
         <h2>Year 4 - Average Grade: 18.1/20</h2>
         <p>Signal processing (sound, image, video), Software engineering principles, Computer security, Constraint programming, Databases, Information Visualisation, Distributed systems, Video games.</p>
         <h2>Year 3 - Average Grade: 17.0/20</h2>

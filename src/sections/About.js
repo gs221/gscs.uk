@@ -54,12 +54,13 @@ export const About = () => {
       <div className="about-container">
         <div>
           <h1>About</h1>
-          <p>Future innovator with ambition to make the world a better place.
-            I am an undergraduate student at the University of St Andrews, pursuing 
-            an Integrated Masters degree in Computer Science. I'm seeking a summer 
-            internship to cross that line into the world of work and kickstart my career.
+          <p>
+            Dedicated computer science student, skilled in teamwork and leadership with a solid 
+            foundation in mathematics, logic, and a broad range of programming languages. 
+            Determined to innovate and excel, leveraging past experience from university and 
+            the workplace. 
           </p> 
-          <a href="docs/cv.pdf" target="_blank" rel="noreferrer">Curriculum Vitae / Résumé</a>
+          {/* <a href="docs/cv.pdf" target="_blank" rel="noreferrer">CV / Résumé</a> */}
         </div>
         <img src="hello.svg" alt="Hello" />
       </div>
