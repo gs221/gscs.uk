@@ -1,0 +1,34 @@
+body, html, section {
+    height: 100%;
+}
+
+body {
+    margin: 0px 20px;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+}
+
+.flex {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;    /* x-axis */
+    align-items: center;        /* y-axis */
+}
+
+.avatar {
+    width: clamp(225px, 30%, 275px);
+    border-radius: 50%;
+}
+
+.planet {
+  position: absolute;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0px;
+}
